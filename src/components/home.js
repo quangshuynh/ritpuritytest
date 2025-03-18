@@ -17,9 +17,23 @@ const Home = () => {
 
   const handleCalculateAndRedirect = () => {
     const checkedCount = checks.filter(Boolean).length;
-    const score = 100 - checkedCount; 
+    const score = 100 - checkedCount;
+    const selections = checks
+      .map((checked, index) => checked ? index + 1 : null) 
+      .filter((i) => i !== null);
+  
+    if (window.gtag) {
+      window.gtag('event', 'test_submission', {
+        event_category: 'RIT Purity Test',
+        event_label: 'User Submission',
+        value: score,
+        selections: JSON.stringify(selections)
+      });
+    }
+  
     navigate("/results", { state: { score } });
   };
+  
 
   const questions = [
     'Current student at RIT?',

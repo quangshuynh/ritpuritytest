@@ -14,7 +14,7 @@ const Results = () => {
     if (navigator.share) {
       navigator.share({
           title: 'My RIT Purity Test Score',
-          text: `I got a RIT Purity Score of ${score} on the RIT Purity Test!`,
+          text: `I got a score of ${score} on the RIT Purity Test!`,
           url: "https://ritpuritytest.vercel.app/"
         })
         .then(() => console.log('Shared successfully!'))

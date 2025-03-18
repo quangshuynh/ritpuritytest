@@ -69,4 +69,29 @@
     background-color: rgba(139, 0, 0, 0.1);
     border-color: #8b0000;
   }
+
+@media (max-width: 600px) {
+  .results-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
   
+  .results-container h2 {
+    font-size: 1.3rem;
+  }
+  
+  .results-container p {
+    font-size: 1rem;
+  }
+  
+  .button2,
+  .button-secondary {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+
+  .results-container img {
+    width: 100%;
+    height: auto;
+  }
+}

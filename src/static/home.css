@@ -1,0 +1,30 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Make sure all direct children of .home-container are centered in text */
+  .home-container > * {
+    text-align: center;
+  }
+  
+  /* 
+     This container can hold your main content, 
+     including the image, questions, etc.
+  */
+  .content-container {
+    max-width: 800px;
+    width: calc(100% - 2rem);
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: rgba(253, 246, 227, 0.95);
+    border: 2px solid #e6d5b8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(210, 190, 160, 0.15);
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+  }

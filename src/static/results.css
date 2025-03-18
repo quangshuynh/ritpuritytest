@@ -1,0 +1,71 @@
+.results-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(253, 246, 227, 0.95);
+    border: 2px solid #e6d5b8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(210, 190, 160, 0.15);
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .results-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .results-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .results-container p {
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button2 {
+    background-color: #8b0000;
+    color: white;
+    border: 1px solid #8b0000;
+    padding: 8px 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 0.5rem;
+    text-decoration: none; 
+  }
+  
+  .button2:hover {
+    background-color: #a00000;
+    border-color: #a00000;
+  }
+  
+  .button-secondary {
+    background-color: transparent;
+    color: #8b0000;
+    border: 1px solid #8b0000;
+    padding: 8px 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .button-secondary:hover {
+    background-color: rgba(139, 0, 0, 0.1);
+    border-color: #8b0000;
+  }
+  

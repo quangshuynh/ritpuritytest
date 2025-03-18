@@ -15,7 +15,7 @@ const Results = () => {
       navigator.share({
           title: 'My RIT Purity Test Score',
           text: `I got a RIT Purity Score of ${score} on the RIT Purity Test!`,
-          url: window.location.href,
+          url: "https://ritpuritytest.vercel.app/"
         })
         .then(() => console.log('Shared successfully!'))
         .catch((error) => console.log('Error sharing:', error));
@@ -56,7 +56,7 @@ const Results = () => {
 
       <div className="button-group">
         <button className="button2" onClick={handleShare}>
-          Share Result
+          Share With Friends
         </button>
         <button className="button-secondary" onClick={() => navigate('/')}>
           Take the test again

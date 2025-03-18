@@ -2,16 +2,32 @@
     text-align: center;
   }
   
-  .caution {
-    font-weight: bold;
+.description {
+    font-size: 1.25rem; 
+    line-height: 1.5;
+    margin-bottom: 2rem; 
+    font-style: italic;
+    max-width: 600px;
+    text-align: center;
   }
   
+  .caution {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .instructions {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
   
   .question-list {
     display: inline-block;
     text-align: left; 
     margin: 0 auto; 
   }
+  
 
   .button {
     background-color: #8b0000; 

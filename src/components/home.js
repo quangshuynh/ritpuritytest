@@ -46,17 +46,18 @@ const Home = () => {
                 Click on every item you have done. Your purity score will be calculated at the end.
             </p>
             <div className="question-list">
-              {questions.map((question, index) => (
+            {questions.map((question, index) => (
                 <div key={index} className="question-item">
-                  <input
+                    <span className="question-number">{index + 1}.</span>
+                    <input
                     type="checkbox"
                     id={`question-${index}`}
                     checked={checks[index]}
                     onChange={() => handleCheck(index)}
-                  />
-                  <label htmlFor={`question-${index}`}>{question}</label>
+                    />
+                    <label htmlFor={`question-${index}`}>{question}</label>
                 </div>
-              ))}
+                ))}
             </div>
             <div className="text-center">
               <button className="button" onClick={handleCalculateAndRedirect}>

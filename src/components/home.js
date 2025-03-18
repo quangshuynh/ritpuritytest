@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import '../static/home.css';
 
 import logo from '../assets/header.png';
 
@@ -32,15 +33,7 @@ const Home = () => {
         <main className="min-h-screen py-8">
           <div className="content-container">
             <div className="title-container">
-              <img
-                alt="The Official RIT Purity Test"
-                width="600"
-                height="100"
-                decoding="async"
-                className="w-full max-w-[600px] h-auto px-4 sm:px-0 mx-auto mb-8"
-                style={{ color: 'transparent', minWidth: '280px', objectFit: 'contain' }}
-                src={logo}
-              />
+              <img alt="The Official RIT Purity Test" width="1182" height="169" decoding="async" className="w-full max-w-[600px] h-auto px-4 sm:px-0 mx-auto mb-8" style={{ color: 'transparent', minWidth: '280px', objectFit: 'contain' }} src={logo} />
             </div>
             <div className="description">
               The first-ever RIT Purity Test! Designed as a fun and voluntary way for RIT students to bond and reflect on their experiences throughout their time at Rochester Institute of Technology.

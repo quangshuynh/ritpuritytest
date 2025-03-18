@@ -116,7 +116,7 @@ const Home = () => {
     'Participated in an intramural sports team?',
     'Listened to a concert at the RIT?',
     'Performed at an RIT open mic event?',
-    'Called RIT the "MIT of the North"?',
+    'Called RIT the "South Henrietta Institute of Technology"?',
     'Painted the Free Speech Rock?',
     'Done the RIT paw sign?',
     'Taken a picture with RITchie the Tiger?',
